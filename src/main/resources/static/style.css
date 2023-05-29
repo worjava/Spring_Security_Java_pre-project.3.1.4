@@ -1,0 +1,29 @@
+.password-icon::before {
+    content: '';
+    background-image: url('free-icon-lock-8472244.png');
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+}
+
+.navbar {
+    background-color: crimson;
+}
+
+
+#roles {
+    height: 55px;
+    width: 100%;
+}
+
+#new-user {
+    text-align: center;
+}
+
+#addNewUserFooter {
+    display: block;
+}
